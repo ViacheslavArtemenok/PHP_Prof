@@ -1,0 +1,12 @@
+<!-- begin: primary.tmpl -->
+   
+      <div class="gallery">
+        {% for item in files %}
+        <a href="fullImage.php?img={{ item.id }}"><img class="gallery_img" src="images/{{ item.name }}" alt="image"></a>
+        {% endfor %}
+      </div> 
+   
+<!-- end: primary.tmpl →
+
+
+
